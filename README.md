@@ -67,6 +67,8 @@ Ex1:
 ### Solution must be posted as a fork to this repo on the 5th of July, 23:00.
 
 
+## Motivation
+
 Stretch goal: Take into account validation annotations (XML, javax.validation, etc).
 
 The solution is not just didactic but has very good use-cases. Eg:
