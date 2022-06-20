@@ -8,15 +8,15 @@ Write a program that instantiates objects. Implement the following interface: eu
 
 ``` public String instantiate(Class any, Target target);  ```
 
-The "instantiate" method can take "any" class type and returns a serialized version of an instance of class "any" (as a JSON string or XML, controlled by the target).
+The "instantiate" method can take "any" class type and returns a serialized version of an instance of class "any" (as a JSON string or XML (stretch goal), controlled by the target).
 
 Your solution will be evaluated based on the following criteria:
 
-Completeness. The richer your solution is, the better
+1. Completeness. Firstly, it has to work, but the richer your solution is, the better. Think of various collections, data types, inheritance, generics, etc
 
-Corner case handling. Eg: one of the fields is a List<Animal>. The instantiated solution contains at least one example of each sub types of Animal (let’s say, Dog, Cat, Koala) in the serialized list. Support for parameterized classes, JAXBElement (for xml and so on)
+2. Corner case handling. Eg: one of the fields is a List<Animal>. The instantiated solution contains at least one example of each sub-types of Animal (let’s say, Dog, Cat, Koala) in the serialized list. Support for parameterized classes, JAXBElement (for xml and so on)
 
-Design. How elegant your solution is. How easy it is to read, extend, understand.
+3. Design. How elegant your solution is. How easy it is to read, extend, understand.
 
 
 Example:
@@ -69,7 +69,9 @@ Ex1:
 
 ## Motivation
 
-Stretch goal: Take into account validation annotations (XML, javax.validation, etc).
+Stretch goals: 
+1. Implement XML target. 
+2. Take into account validation annotations.
 
 The solution is not just didactic but has very good use-cases. Eg:
 
