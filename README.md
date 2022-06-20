@@ -4,7 +4,7 @@ Community day coding contest
 ## Java CA coding contest
 
 
-Write a program that instantiates objects. Implement the following interface:
+Write a program that instantiates objects. Implement the following interface: eu.javaca.playground.Instantiable: 
 
 ``` public String instantiate(Class any, Target target);  ```
 
@@ -17,7 +17,6 @@ Completeness. The richer your solution is, the better
 Corner case handling. Eg: one of the fields is a List<Animal>. The instantiated solution contains at least one example of each sub types of Animal (let’s say, Dog, Cat, Koala) in the serialized list. Support for parameterized classes, JAXBElement (for xml and so on)
 
 Design. How elegant your solution is. How easy it is to read, extend, understand.
-
 
 
 Example:
@@ -61,6 +60,12 @@ Ex1:
     "workplace": null 
 } 
 ```
+## Rules 
+
+### Solution can be implemented in the following languages: Java, Scala, Kotlin
+
+### Solution must be posted as a fork to this repo on the 5th of July, 23:00.
+
 
 ### Stretch goal: Take into account validation annotations (XML, javax.validation, etc).
 
