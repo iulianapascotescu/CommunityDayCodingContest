@@ -8,7 +8,7 @@ Write a program that instantiates objects. Implement the following interface: eu
 
 ``` public String instantiate(Class any, Target target);  ```
 
-The "instantiate" method can take "any" class type and returns a serialized version of an instance of class "any" (as a JSON string or XML (stretch goal), controlled by the target).
+The "instantiate" method can take "any" class type and returns a serialized version of an instance of class "any" (as a JSON string, controlled by the target which is an Enum value "JSON").
 
 Your solution will be evaluated based on the following criteria:
 
@@ -22,7 +22,7 @@ Your solution will be evaluated based on the following criteria:
 Example:
 
 ``` 
-MyClass { 
+AboutPerson { 
 
       String name; 
 
@@ -38,10 +38,9 @@ MyClass {
 ```
 
 
-Possible JSON results:
+Possible JSON result:
 
 ``` 
-Ex1:
 { 
 
     "name":"zmiusdlm mamdfu",  
@@ -64,7 +63,7 @@ Ex1:
 
 ### Solution can be implemented in the following languages: Java, Scala, Kotlin
 
-### Solution must be posted as a fork to this repo on the 5th of July, 23:00.
+### Solution must be posted in a fork repo to this one on the 5th of July, 23:00.
 
 
 ## Motivation
